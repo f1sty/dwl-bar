@@ -8,8 +8,8 @@
 static const int show_bar = 1;
 static const int bar_top = 1;          /* Boolean value, non-zero is true. If not top then bottom */
 static const int status_on_active = 1; /* Display the status on active monitor only. If not then on all. */
-static const char *font = "Monospace 10";
-static const char *terminal[] = { "alacritty", NULL };
+static const char *font = "RobotoMono Nerd Font 8";
+static const char *terminal[] = { "foot", "-L", NULL };
 
 /*
  * Colors:
@@ -38,7 +38,7 @@ static const int *schemes[3][2] = {
  * Tags
  * Must not exceed 31 tags and amount must match dwl's tagcount.
  */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = {"", "", "", "", "👥", "💼", "🔍", "🚢", ".."};
 
 /*
  * Buttons
